@@ -1,0 +1,1 @@
+import{Tween}from"cc";class XTween extends Tween{constructor(){super(...arguments),this._onCompleteNow=null}onCompleteNow(o){return this._onCompleteNow=o,this}completeNow(){this.stop(),this._onCompleteNow?(this._onCompleteNow(),this._onCompleteNow=null):console.error("u are not sign 'onQuickEnd'")}}export{XTween};

@@ -1,0 +1,32 @@
+{
+  "name": "gnfun-cc",
+  "version": "0.0.2",
+  "description": "gnfun-cc = Good and Nice Functions for CocosCreator.",
+  "main": "gnfun-cc.mjs",
+  "types": "gnfun-cc.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build"
+  },
+  "files": [
+    "gnfun-cc.mjs",
+    "gnfun-cc.min.mjs",
+    "gnfun-cc.d.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bakabird/gnfun-cc"
+  },
+  "homepage": "https://github.com/bakabird/gnfun-cc",
+  "author": "bakabird",
+  "license": "ISC",
+  "devDependencies": {
+    "dts-bundle": "^0.7.3",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-uglify": "^3.0.2",
+    "rollup": "^3.26.2"
+  }
+}
